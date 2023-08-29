@@ -1,16 +1,20 @@
 .statistics {
     display: flex;
-    background-color: #fff;
+    background-color:lightblue;
     flex-direction: column;
+   
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 10px;
     overflow: hidden;
-    margin-block: 2rem;
+    margin: 30px auto;
+    max-width:500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    padding: 50px
   }
   
   .title {
     text-transform: uppercase;
-    padding-block: 2rem;
+    padding: 10;
     color: #808080;
   }
   
@@ -20,7 +24,7 @@
     justify-content: space-between;
     width: 500px;
     padding-left:0;
-    background-color: #606060;
+    background-color: rgb(230, 230, 242);
   }
   
   .item {
@@ -29,15 +33,15 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    gap: 0.5rem;
-    padding: 1rem;
+    gap: 10px;
+    padding: 10px;
     border: 1px solid #fff;
+    color:black
   }
   
   .percentage {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 500;
   }
   
-  .status {
-  }
+ 
